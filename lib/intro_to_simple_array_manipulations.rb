@@ -20,3 +20,8 @@ def using_shift(array)
   new_ = array.shift
   return new_
 end
+
+def shift_with_args(array)
+  removed_two = array.pop(2)
+  return removed_two
+end
