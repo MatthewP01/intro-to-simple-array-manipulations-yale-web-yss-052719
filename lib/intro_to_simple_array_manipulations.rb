@@ -49,5 +49,5 @@ end
 
 def delete_at(array, int)
   int = 2
-  array.delete(int)
+  array.delete(array == int)
 end
