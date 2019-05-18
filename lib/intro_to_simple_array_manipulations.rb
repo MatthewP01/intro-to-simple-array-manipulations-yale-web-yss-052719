@@ -7,5 +7,6 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  removed = array.pop(string)
+  removed = array.pop
+  return removed
 end
