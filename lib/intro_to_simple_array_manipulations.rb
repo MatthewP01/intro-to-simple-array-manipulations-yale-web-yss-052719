@@ -32,4 +32,5 @@ end
 
 def using_insert(array, element)
   inserted = array.insert(element)
+  return inserted
 end
