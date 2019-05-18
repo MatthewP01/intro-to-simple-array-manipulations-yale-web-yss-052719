@@ -12,3 +12,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
+  removed_two = array.pop(2)
+  return removed
+end
+
